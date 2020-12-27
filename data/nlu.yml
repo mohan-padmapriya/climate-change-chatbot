@@ -1,0 +1,388 @@
+nlu:
+- intent: greet
+  examples: |
+    - Hi
+    - Hey!
+    - Hallo
+    - Good day
+    - Good morning
+
+- intent: subscribe
+  examples: |
+    - I want to get the newsletter
+    - Can you send me the newsletter?
+    - Can you sign me up for the newsletter?
+
+- intent: inform
+  examples: |
+    - My email is example@example.com
+    - random@example.com
+    - Please send it to anything@example.com
+    - Email is something@example.com
+
+- intent: faq/what
+  examples: |
+    - what is veganism
+    - what does a vegan eat
+    - who is a vegan
+    - what does it mean to be a vegan
+
+- intent: faq/diff
+  examples: |
+    - Aren't veganism and vegetarianism the same
+    - what is the difference between veganism and vegetarianism
+    - Isn't that just being vegertarian
+    - How is being vegetarian different
+    - Isn't it enough to be vegetarian
+    - That's the same as vegetarian
+    - Vegetarian and vegan are the same
+    - Being vegetarian is enough
+    - I am already vegetarian
+
+- intent: faq/why
+  examples: |
+    - Why become vegan
+    - Why don't vegans eat animal products
+    - Why should I go vegan
+    - Why to go vegan
+
+
+- intent: faq/how
+  examples: |
+    - How can I go vegan
+    - What should I do to go vegan
+
+- intent: faq/health
+  examples: |
+    - Is being vegan healthy
+    - Will you die
+    - Isn't veganism unhealthy
+    - Is a vegan diet healthy
+    - We need meat to be healthy
+    - We need dairy to be healthy
+
+
+- intent: faq/protein
+  examples: |
+    - Where do vegans get their protein
+    - Do vegans get enough protein
+    - Does a vegan diet provide enough protein
+    - What are vegan sources of protein
+    - I need protein
+    - I won't get enough protein
+    - What about protein
+
+- intent: faq/iron
+  examples: |
+    - Where do vegans get their iron
+    - Do vegans get enough iron
+    - Does a vegan diet provide enough iron
+    - What are vegan sources of iron
+    - I need iron
+    - I won't get enough iron
+    - What about iron
+
+- intent: faq/b12
+  examples: |
+    - Where do vegans get their vitamin B12
+    - Do vegans get enough B12
+    - Does a vegan diet provide enough B12
+    - What are vegan sources of B12
+    - I need B12
+    - I won't get enough B12
+    - What about B12
+
+- intent: faq/calcium
+  examples: |
+    - Where do vegans get their calcium
+    - Do vegans get enough calcium
+    - Does a vegan diet provide enough calcium
+    - What are vegan sources of calcium
+    - I need calcium
+    - I won't get enough calcium
+    - What about calcium
+    - How do I get calcium without milk
+    - Milk is the best source of calcium
+
+- intent: faq/supplement
+  examples: |
+    - Do I have to take supplements
+    - But I have to supplement
+    - Do vegans have to take supplements
+    - Vegans have to take tablets
+    - Supplements are not natural, vegans have to take them
+    - What supplements do vegans have to take
+    - Will I need to supplement
+
+- intent: faq/animal_pain
+  examples: |
+    - Animals don't feel pain like humans
+    - Animals and humans are not equal
+    - Animals are not intelligent
+    - Animals don't have consciousness
+    - Humans are superior to animals
+    - Animals are inferior to humans
+
+
+
+- intent: faq/eggs
+  examples: |
+    - Why is it wrong to eat eggs
+    - Taking eggs from chicken doesn't harm them
+    - Eggs are cruelty-free
+    - Eating eggs is cruelty-free
+    - What about eggs
+    - What could be wrong with eating eggs
+    - Why is consuming eggs bad
+    - Why don't vegans eat eggs
+
+- intent: faq/slaughter
+  examples: |
+    - Killing animals doesn't harm them 
+
+
+
+- intent: faq/dairy_cruelty
+  examples: |
+    - It doesn't harm animals to take their milk
+    - What is the problem with milk
+    - Animals are not killed for milk
+    - Why don't vegans drink milk
+    - Animals are not harmed for milk
+    - Cows are gomatha
+
+
+- intent: faq/cows_need_to_be_milked
+  examples: |
+    - Cows die if they are not milked
+    - Cows produce excess milk
+    - Cows need to be milked
+    - Cows produce milk for humans
+    - Cows produce milk naturally
+
+- intent: faq/wool
+  examples: |
+    - Taking wool from animals doesn't harm them
+    - Sheep are not killed for wool
+    - Taking wool from sheep is okay
+
+- intent: faq/silk
+  examples: |
+    - silk worms don't feel pain
+    - insects don't feel pain
+    - silkworms don't have feelings
+    - silk are not intelligent
+    - Taking silk from silkworms is okay
+    - Silkworms are reared to be killed
+    - silkworms are not alive
+
+- intent: faq/honey
+  examples: |
+    - Honeybees are not killed for honey
+    - Honey is good for health
+    - Honey is cruelty-free
+    - why don't vegans consume honey
+    - why don't vegans eat honey
+    - what's the problem with honey
+    - honey farmers care for their Honeybees
+    - is honey vegan
+    - why is honey not vegan
+    - honeybees don't feel pain
+    - honeybees don't have feelings
+
+- intent: faq/taste_meat
+  examples: |
+    - i can't live without meat
+    - i love meat
+    - bacon tho
+    - i love bacon
+    - i love steak
+    - i just like the taste of meat
+    - i don't like the taste of vegan food
+    - vegan substitutes don't taste like real meat
+    - mockmeat tastes horrible
+    - mockmeat doesn't taste like real meat
+    - i love burgers
+    - i love pizza
+
+- intent: faq/choice
+  examples: |
+    - people should be allowed to eat whatever they want
+    - what you eat is your personal choice
+    - it's my personal choice
+    - i have the right to eat what i want
+    - vegans can't tell me what to it
+
+- intent: faq/morality
+  examples: |
+    - why is it immoral to eat meat
+    - morality is subjective
+    - right and wrong is subjective
+    - who decides what is right 
+    - morality is subjective
+    - ethics are subjective
+    - why is it wrong to kill animals
+
+- intent: faq/religion_gen
+  examples: |
+    - according to my religion it is okay to eat animals
+    - according to god we are allowed to eat animals
+    - animals are meant to be eaten
+
+- intent: faq/god
+  examples: |
+    - god allowed us to eat animals
+    - god made animals for us to eat
+    
+- intent: faq/culture
+  examples: |
+    - it is a part of culture
+    - what about cultural practices
+    - i am only following culture
+
+- intent: faq/ancestors
+  examples: |
+    - humans are meant to eat meat
+    - our ancestors ate meat
+    - humans have consumed meat for thousands of years
+    - humans have consumed meat for ages
+    - humans have always eaten meat
+    - according to history, we are meant to eat meat
+
+- intent: faq/canines
+  examples: |
+    - we have canines
+    - our teeth can cut meat
+    - we have canine teeth to eat meat
+
+- intent: faq/wild
+  examples: |
+    - wild animals kill each other
+    - lions kill animals
+
+- intent: faq/natural
+  examples: |
+    -it is natural to kill animals 
+    -humans are animals so
+
+- intent: faq/habit
+  examples: |
+    - i have grown up this way
+    - it has become a habit
+
+- intent: faq/animal_products
+  examples: |
+    - we need animal products to survive
+    - we cannot survive without animal products
+    - animal products are important
+
+- intent: faq/bred
+  examples: |
+    - why it wrong to kill animals that have been bred to die
+    - animals are reared for food
+
+- intent: faq/tribals
+  examples: |
+    - should tribals become vegan
+    - tribals need to hunt
+    - tribal people need to kill animals
+    - what about tribes who have to hunt to survive
+
+- intent: faq/deserted_island
+  examples: |
+    - what if i was stuck on a deserted island
+    - what if it was a life and death situation
+
+- intent: faq/humane_freerange
+  examples: |
+    - slaughter can be humane
+    - farmers care for their animals
+    - farmers love animals
+    - animals live a happy life before being killed
+    - animals are taken care of in farms
+    - not all farmers are bad
+    - animals are loved and respected in farms
+
+
+- intent: faq/one_cant_make_a_diff
+  examples: |
+    - vegans can't make a difference
+    - one person doesn't matter
+    - it doesn't matter if i am vegan
+    - how can few vegans change the world
+
+- intent: faq/vegan_world
+  examples: |
+    - the entire world can't go vegan
+    - is it possible for the entire world to go vegan
+    - the whole world can't go vegan
+
+- intent: faq/pure_vegan
+  examples: |
+    - you can't be 100 percent vegan in the modern world
+    - it is impossible to be pure vegan
+
+
+- intent: faq/speciesism
+  examples: |
+    - it is okay to kill some animals but not others
+    - it is not okay to kill dogs
+    - some animals are meant to be killed and eaten while others are not
+
+- intent: faq/land_for_vegetation
+  examples: |
+    - we don't have land to grow crops if everyone went vegan
+
+- intent: faq/jobs
+  examples: |
+    - poor farmers they will lose their jobs
+    - many people's livelihoods depend on these jobs
+    - butchers will lose their livelihoods
+
+- intent: faq/hard
+  examples: |
+    - it is difficult to be vegan
+    - vegan food is hard to get
+    - what if i can't find vegan food
+
+- intent: faq/expensive
+  examples: |
+    - isn't vegan food expensive
+    - isn't it costly to be vegan
+
+- intent: faq/vegan_taste
+  examples: |
+    - vegan food tastes nothing like the original
+    - vegan food tastes like shit
+    - plantbased substitutes are horrible for your health
+
+- intent: faq/least_harm
+  examples: |
+    - crop harvesting kills animals too
+
+- intent: faq/plant_feelings
+  examples: |
+    - plants have feelings too
+
+- intent: faq/animal_testing
+  examples: |
+    - cosmetics need to be tested
+
+- intent: faq/science
+  examples: |
+    - animals need to be sacrificed for the progress of science
+
+
+- intent: faq/pets
+  examples: |
+    - why don't vegans have pets
+
+- intent: faq/medicine
+  examples: |
+    - medicines are not vegan
+
+- intent: faq/nihilism
+  examples: |
+    - i don't care
+
+    

@@ -1,0 +1,148 @@
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- greet
+- inform
+- subscribe
+- faq
+slots:
+  email:
+    type: unfeaturized
+    influence_conversation: false
+responses:
+  utter_greet:
+  - text: "Hello! How can I help you?\n"
+  - text: "Hi!\n"
+  utter_ask_email:
+  - text: "What is your email address?\n"
+  utter_subscribed:
+  - text: "Check your inbox at {email} in order to finish subscribing to the newsletter!\n"
+  - text: You're all set! Check your inbox at {email} to confirm your subscription.
+
+
+  utter_faq/what:
+  - text: "Veganism is the practice of abstaining from the use of animal products, for food, commodities, work, hunting, vivisection, and by all other uses involving exploitation of animal life by man."
+  utter_faq/diff:
+  - text: "According to the Vegetarian Society, a vegetarian is someone who does not eat any meat, poultry, game, fish, shellfish or by-products of animal slaughter. However, vegetarians might consume dairy and eggs. Vegans abstain from animal products of any sort."
+  utter_faq/why:
+  - text: "No one is born vegan. People choose to vegan for three main reasons - for\n\
+      the planet, for animals, for their health and fitness\n"
+  utter_faq/how:
+  - text: "Here are some resources for you!\n"
+  utter_faq/health:
+  - text: "A balanced vegan diet consisting of a wide variety of fresh fruits, vegetables,\n\
+      grains, legumes, nuts and seeds is the healthiest of all, with the bonus of\n\
+      higher antioxidants and lower saturated fat and cholesterol. A well planned\n\
+      vegan diet can also help with the prevention and treatment of many illnesses\n\
+      and diseases such as; heart disease, obesity, diabetes, osteoporosis, kidney\n\
+      stones and some cancers.\n"
+  utter_faq/protein:
+  - text: "Some popular sources of protien are soy, pulses, beans, nuts, and seeds.sources\
+      \ of protien are soy, pulses, beans, nuts, and seeds.\nThe biggest animals are\
+      \ in fact herbivores!\n"
+  utter_faq/slaughter:
+  - text: "The definition of harm is \"Physical injury, especially that which is deliberately\
+      \ inflicted\". As such, firing a pneumatic bolt pistol into their forehead and\
+      \ then slitting their throat, shocking them with electricity and then slitting\
+      \ their throat, are done to deliberately inflict a physical injury. Regardless\
+      \ of the manner of execution, it is harm to kill an animal.\n"
+
+  utter_faq/b12:
+  - text: b12 yeah bro
+
+  utter_faq/iron:
+  - text: iron also
+
+  utter_faq/supplement:
+  - text: everyone needs them you idiot
+
+  utter_faq/calcium:
+  - text: have you heard of til
+
+  utter_faq/animal_pain:
+  - text: they do, as intensly
+
+  utter_faq/eggs:
+  - text: chicken period
+
+  utter_faq/dairy_cruelty:
+  - text: um yeah, cows are treated like shit and male cows are too dead to protest
+
+  utter_faq/cows_need_to_be_milked:
+  - text: cows need to be milked only as much as your mom needs to be
+
+  utter_faq/wool:
+  - text: wool hurts
+
+  utter_faq/silk:
+  - text: silk hurts
+
+  utter_faq/honey:
+  - text: honey you have no idea
+
+  utter_faq/taste_meat:
+  - text: veg tastes better
+
+  utter_faq/choice:
+  - text: my choice is to punch you
+
+  utter_faq/morality:
+  - text: morality and ethics
+
+  utter_faq/religion_gen:
+  - text: no, religion is wrong then
+
+  utter_faq/god:
+  - text: god is great
+
+  utter_faq/culture:
+  - text: culture is stupid excuse
+
+  utter_faq/ancestors:
+  - text: your ancestors also ate boogers
+
+  utter_faq/canines:
+  - text: so you can eat rubber
+
+  utter_faq/wild:
+  - text: you're not a wild animal
+
+  utter_faq/habit:
+  - text: being stupid seems to have become a habit too
+
+  utter_faq/natural:
+  - text: processed meat is super natural init
+
+  utter_faq/animal_products:   
+  - text: no you can survive without them
+
+  utter_faq/bred:   
+  - text: bred to die
+
+
+  utter_faq/tribals:
+  - text: are you tribal bro
+
+  utter_faq/deserted_island:
+  - text: is this a deserted deserted_island
+
+
+  utter_faq/humane_freerange:
+  - text: humane slaughter is a myth
+
+  utter_faq/one_cant_make_a_diff:
+  - text: yes you can, all starts somewhere, change begins with you
+
+  utter_faq/vegan_world:
+  - text: vegan apocalypse is here
+
+
+actions:
+- '...'
+- utter_greet
+- utter_subscribed
+forms:
+  newsletter_form:
+    email:
+    - type: from_text
