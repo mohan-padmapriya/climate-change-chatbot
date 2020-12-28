@@ -136,11 +136,6 @@ nlu:
     - Why is consuming eggs bad
     - Why don't vegans eat eggs
 
-- intent: faq/slaughter
-  examples: |
-    - Killing animals doesn't harm them 
-
-
 
 - intent: faq/dairy_cruelty
   examples: |

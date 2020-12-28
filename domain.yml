@@ -22,31 +22,22 @@ responses:
 
 
   utter_faq/what:
-  - text: "Veganism is the practice of abstaining from the use of animal products, for food, commodities, work, hunting, vivisection, and by all other uses involving exploitation of animal life by man."
+  - text: "Veganism is a way of living which  excludes all forms of exploitation of, and cruelty to, animals for food, clothing, entertainment etc. It is a philosophy that aims to uplift the moral status of non-human sentient beings.\n\ Visit [The Vegan Society's page](https://www.vegansociety.com/go-vegan/definition-veganism#:~:text=%22Veganism%20is%20a%20philosophy%20and,benefit%20of%20animals%2C%20humans%20and) to understand the philosophy better."
   utter_faq/diff:
-  - text: "According to the Vegetarian Society, a vegetarian is someone who does not eat any meat, poultry, game, fish, shellfish or by-products of animal slaughter. However, vegetarians might consume dairy and eggs. Vegans abstain from animal products of any sort."
+  - text: "Veganism and vegetarianism are different in several ways. Vegetarians might consume dairy, eggs, and honey, while vegans do not. It is often argued that being vegetarian is enough, since vegetarians do not contribute to the direct slaughter of animals in factory farms, for red meat. However, dairy cows are slaughtered after they are abused at dairy farms for years. The male calves that dairy cows give birth to are sent for slaughter right away, since they are of no economic value to the dairy farmer. Similar is the fate of male chicks in the egg industry. Once hens are barren, they are killed for their meat.\n\ To know more about why being vegetarian is not enough, do watch [this video](https://www.youtube.com/watch?v=uWna6-niYEg&feature=youtu.be)"
   utter_faq/why:
-  - text: "No one is born vegan. People choose to vegan for three main reasons - for\n\
-      the planet, for animals, for their health and fitness\n"
+  - text: "People choose to vegan for three main reasons - for their health, for the environment, and for the animals. \n\ Did you know eat vegan is good for the environment? Do you know how going vegan affects your health. Ask me any questions you have, I'd be happy to answer them."
   utter_faq/how:
-  - text: "Here are some resources for you!\n"
+  - text: "If you would like to go vegan, here are some resources for you!\n\ It is important to remember to take it slow. Perhaps start by eating vegan once a week, and then one meal a day, and so on, until you get used to it. Maybe you can cut out red meat from your diet first, then fish, then dairy. Veganism is not about being perfect, we all make mistakes, so be easy on yourself. What matters most is that you're trying to make a change, which is great for the animals, the planet, and for you!"
   utter_faq/health:
   - text: "A balanced vegan diet consisting of a wide variety of fresh fruits, vegetables,\n\
       grains, legumes, nuts and seeds is the healthiest of all, with the bonus of\n\
       higher antioxidants and lower saturated fat and cholesterol. A well planned\n\
       vegan diet can also help with the prevention and treatment of many illnesses\n\
       and diseases such as; heart disease, obesity, diabetes, osteoporosis, kidney\n\
-      stones and some cancers.\n"
+      stones and some cancers.\n\ Add position of WHO, ADA etc"
   utter_faq/protein:
-  - text: "Some popular sources of protien are soy, pulses, beans, nuts, and seeds.sources\
-      \ of protien are soy, pulses, beans, nuts, and seeds.\nThe biggest animals are\
-      \ in fact herbivores!\n"
-  utter_faq/slaughter:
-  - text: "The definition of harm is \"Physical injury, especially that which is deliberately\
-      \ inflicted\". As such, firing a pneumatic bolt pistol into their forehead and\
-      \ then slitting their throat, shocking them with electricity and then slitting\
-      \ their throat, are done to deliberately inflict a physical injury. Regardless\
-      \ of the manner of execution, it is harm to kill an animal.\n"
+  - text: "It is a myth that a vegan diet does not provide enough protein. Vegans get their protien from various sources, such as nuts, seeds, vegetables, legumes, etc. \n\ [Livekindly's article](https://www.livekindly.co/how-do-vegans-get-enough-protein-from-their-diet/) dispells this myth.\n\ If you're an athlete concerned about how the vegan diet will allow you to meet your daily protein requirements, check out [Forks over Knives' No-BS Guide to Vegan Protein](https://www.forksoverknives.com/wellness/vegan-protein-guide-athletes/) "
 
   utter_faq/b12:
   - text: b12 yeah bro
@@ -61,7 +52,7 @@ responses:
   - text: have you heard of til
 
   utter_faq/animal_pain:
-  - text: they do, as intensly
+  - text: "Reseach has proved than animals do indeed feel pain. And they feel pain as intensly as humans do. The only difference is that they do not have language or words that we understand, with which they might express their suffering. \n\ Watch the following video by [Earthling Ed](https://www.youtube.com/watch?v=nIP5Yrqdugc&feature=youtu.be) to understand how animals feel pain better.\n\ [Livekindly](https://www.livekindly.co/animals-feel-pain/) has done some work in understanding the scientific literature associated with how animals feel pain. "
 
   utter_faq/eggs:
   - text: chicken period
